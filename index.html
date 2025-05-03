@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Khóa điện tử Đà Nẵng - Chuyên lắp đặt khóa cửa vân tay, khóa thông minh WiFi, khóa điện tử chính hãng Similock. Bảo hành 24 tháng, hỗ trợ 24/7.">
+  <meta name="keywords" content="khóa điện tử đà nẵng, khóa cửa vân tay, khóa thông minh, khóa wifi, khóa similock, lắp khóa điện tử, giá khóa cửa điện tử">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Khóa Điện Tử Đà Nẵng - Lắp Đặt Khóa Thông Minh Chính Hãng">
+  <meta property="og:description" content="Chuyên lắp đặt khóa cửa vân tay, khóa thông minh WiFi chính hãng Similock tại Đà Nẵng. Bảo hành 24 tháng, hỗ trợ 24/7.">
+  <meta property="og:image" content="https://i.imgur.com/Jz1wYZR.jpg">
+  <meta property="og:url" content="https://khoadientudanang.shop">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="vi_VN">
+  <meta name="author" content="Khóa Điện Tử Đà Nẵng">
+  <link rel="canonical" href="https://khoadientudanang.shop" />
+  
+  <title>Khóa Điện Tử Đà Nẵng - Lắp Đặt Khóa Thông Minh Chính Hãng Similock</title>
+
+  <!-- Preload critical resources -->
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" as="style">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" as="font" crossorigin>
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" as="style">
+  
+  <!-- CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --primary-color: #0d6efd;
+      --secondary-color: #6610f2;
+      --dark-color: #2c3e50;
+      --light-color: #f8f9fa;
+      --danger-color: #dc3545;
+    }
+    
+    html { 
+      scroll-behavior: smooth; 
+      scroll-padding-top: 80px;
+    }
+    
+    body { 
+      font-family: 'Montserrat', sans-serif; 
+      background-color: var(--light-color);
+      color: #333;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+    
+    /* Navbar */
+    .navbar { 
+      background-color: #ffffff; 
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+      position: sticky; 
+      top: 0; 
+      z-index: 1030;
+    }
+    
+    .navbar-brand { 
+      font-weight: 700; 
+      color: var(--primary-color);
+      font-size: 1.5rem;
+    }
+    
+    .nav-link {
+      font-weight: 500;
+      padding: 8px 15px;
+      border-radius: 20px;
+      transition: all 0.3s ease;
+    }
+    
+    .nav-link:hover,
+    .nav-link.active {
+      background-color: var(--primary-color);
+      color: white !important;
+    }
+    
+    /* Hero Section */
+    .hero-section {
+      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                  url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: white;
+      padding: 120px 0;
+      text-align: center;
+    }
+    
+    /* Section Styling */
+    .section {
+      padding: 80px 0; 
+      position: relative;
+    }
+    
+    .section-title {
+      position: relative;
+      display: inline-block;
+      font-weight: 700;
+      color: var(--dark-color);
+      margin-bottom: 40px;
+      text-transform: uppercase;
+    }
+    
+    .section-title:after {
+      content: "";
+      position: absolute;
+      bottom: -15px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80px;
+      height: 4px;
+      background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+      border-radius: 2px;
+    }
+    
+    /* Product Card */
+    .product-card {
+      transition: all 0.3s ease;
+      border: none;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+      height: 100%;
+    }
+    
+    .product-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    }
+    
+    .product-image-container {
+      position: relative;
+      overflow: hidden;
+      background: #f8f9fa;
+      aspect-ratio: 3/4;
+    }
+    
+    .product-img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      transition: transform 0.5s ease;
+    }
+    
+    .product-card:hover .product-img {
+      transform: scale(1.03);
+    }
+    
+    .product-badge {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 5px 10px;
+      border-radius: 0 0 0 10px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      z-index: 1;
+    }
+    
+    /* Testimonial */
+    .testimonial-card {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      border: none;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+      transition: all 0.3s ease;
+    }
+    
+    .testimonial-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+    
+    .testimonial-card .card-body {
+      flex: 1;
+    }
+    
+    .rating {
+      color: #ffc107;
+      margin-bottom: 15px;
+    }
+    
+    /* Contact Form */
+    .contact-form .form-control,
+    .contact-form .form-select {
+      border-radius: 8px;
+      padding: 12px 15px;
+      border: 1px solid #dee2e6;
+    }
+    
+    .contact-form .form-control:focus,
+    .contact-form .form-select:focus {
+      border-color: var(--primary-color);
+      box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+    }
+    
+    /* FAQ */
+    .accordion-button:not(.collapsed) {
+      background-color: rgba(13, 110, 253, 0.1);
+      color: var(--primary-color);
+    }
+    
+    /* Footer */
+    footer {
+      background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+      color: white;
+      padding: 60px 0 20px;
+    }
+    
+    footer a {
+      color: white;
+      transition: all 0.3s;
+      text-decoration: none;
+    }
+    
+    footer a:hover {
+      color: #f8f9fa;
+      transform: translateY(-3px);
+    }
+    
+    .social-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.1);
+      transition: all 0.3s;
+    }
+    
+    .social-icon:hover {
+      background: rgba(255,255,255,0.2);
+      transform: translateY(-3px);
+    }
+    
+    /* Back to top button */
+    .back-to-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background: var(--primary-color);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.3s;
+      z-index: 999;
+    }
+    
+    .back-to-top.active {
+      opacity: 1;
+      visibility: visible;
+    }
+    
+    /* Modal */
+    .product-modal .modal-dialog {
+      max-width: 900px;
+    }
+    
+    /* Optimized for mobile */
+    @media (max-width: 768px) {
+      .hero-section {
+        padding: 80px 0;
+      }
+      
+      .section {
+        padding: 60px 0;
+      }
+      
+      .product-image-container {
+        aspect-ratio: 1/1;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="#" aria-label="Khóa Điện Tử Đà Nẵng">
+        <i class="bi bi-shield-lock me-2"></i>Khóa Điện Tử Đà Nẵng
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#gioi-thieu">Giới thiệu</a></li>
+          <li class="nav-item"><a class="nav-link" href="#san-pham">Sản phẩm</a></li>
+          <li class="nav-item"><a class="nav-link" href="#danh-gia">Đánh giá</a></li>
+          <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#lien-he">Liên hệ</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero-section">
+    <div class="container" data-aos="fade-up">
+      <h1 class="display-5 fw-bold">Giải Pháp Khóa Thông Minh Hiện Đại</h1>
+      <p class="lead fs-4">Chuyên lắp đặt khóa cửa vân tay, khóa điện tử chính hãng Similock tại Đà Nẵng</p>
+      <div class="mt-4">
+        <a href="tel:0902950816" class="btn btn-primary btn-lg rounded-pill px-4 me-2">
+          <i class="bi bi-telephone-fill me-2"></i>0902.950.816
+        </a>
+        <a href="#dat-hang" class="btn btn-outline-light btn-lg rounded-pill px-4">
+          <i class="bi bi-chat-dots-fill me-2"></i>Đặt hàng ngay
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Giới thiệu Section -->
+  <section id="gioi-thieu" class="section bg-white">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 text-center">
+          <h2 class="section-title" data-aos="fade-up">Vì sao chọn chúng tôi?</h2>
+          <div class="similock-badge mb-4" data-aos="fade-up" data-aos-delay="100">
+            <span class="badge bg-danger text-white fs-5 fw-normal px-3 py-2">
+              <i class="bi bi-patch-check-fill me-2"></i>HÀNG CHÍNH HÃNG SIMILOCK
+            </span>
+          </div>
+          
+          <div class="row mt-3">
+            <div class="col-lg-6 mb-4" data-aos="fade-right">
+              <div class="intro-container h-100 position-relative rounded-3 overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" 
+                     alt="Khóa điện tử Đà Nẵng" 
+                     class="intro-image w-100 h-100 object-fit-cover">
+                
+                <div class="position-absolute bottom-25 left-25 bg-primary bg-opacity-90 text-white p-3 rounded-3 z-2 max-w-80">
+                  <h4 class="mb-0"><i class="bi bi-patch-check-fill me-2"></i>10+ năm kinh nghiệm lắp đặt khóa điện tử</h4>
+                </div>
+                
+                <div class="position-absolute top-25 right-25 bg-danger bg-opacity-90 text-white p-2 rounded-3 z-2">
+                  <h5 class="mb-0"><i class="bi bi-headset me-2"></i>Hỗ trợ 24/7</h5>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-6" data-aos="fade-left">
+              <div class="feature-list">
+                <div class="feature-item bg-white p-4 mb-3 rounded-3 shadow-sm">
+                  <div class="d-flex align-items-start">
+                    <div class="feature-icon bg-primary bg-opacity-10 rounded-circle me-3 flex-shrink-0">
+                      <i class="bi bi-shield-check text-primary fs-4"></i>
+                    </div>
+                    <div>
+                      <h5>Chính hãng Similock</h5>
+                      <p class="mb-0">Cam kết 100% sản phẩm chính hãng, bảo hành 24 tháng toàn quốc, đổi trả trong 7 ngày nếu lỗi.</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="feature-item bg-white p-4 mb-3 rounded-3 shadow-sm">
+                  <div class="d-flex align-items-start">
+                    <div class="feature-icon bg-primary bg-opacity-10 rounded-circle me-3 flex-shrink-0">
+                      <i class="bi bi-tools text-primary fs-4"></i>
+                    </div>
+                    <div>
+                      <h5>Lắp đặt chuyên nghiệp</h5>
+                      <p class="mb-0">Đội ngũ kỹ thuật viên lành nghề, lắp đặt nhanh chóng, không làm hỏng cửa, vệ sinh sạch sẽ sau thi công.</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="feature-item bg-white p-4 mb-3 rounded-3 shadow-sm">
+                  <div class="d-flex align-items-start">
+                    <div class="feature-icon bg-primary bg-opacity-10 rounded-circle me-3 flex-shrink-0">
+                      <i class="bi bi-currency-dollar text-primary fs-4"></i>
+                    </div>
+                    <div>
+                      <h5>Giá tốt nhất thị trường</h5>
+                      <p class="mb-0">Cam kết giá tốt nhất khu vực miền Trung, nhiều ưu đãi và quà tặng hấp dẫn khi lắp đặt.</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="feature-item bg-white p-4 rounded-3 shadow-sm">
+                  <div class="d-flex align-items-start">
+                    <div class="feature-icon bg-primary bg-opacity-10 rounded-circle me-3 flex-shrink-0">
+                      <i class="bi bi-stars text-primary fs-4"></i>
+                    </div>
+                    <div>
+                      <h5>Hậu mãi chu đáo</h5>
+                      <p class="mb-0">Bảo trì định kỳ miễn phí, hỗ trợ từ xa qua Zalo, Facebook, hướng dẫn sử dụng tận tình.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sản phẩm Section -->
+  <section id="san-pham" class="section bg-light">
+    <div class="container">
+	 <div class="row justify-content-center">
+        <div class="col-12 text-center">
+      <h2 class="text-center section-title" data-aos="fade-up">Sản phẩm nổi bật</h2>
+      <p class="text-center mb-5" data-aos="fade-up" data-aos-delay="100">Các dòng khóa thông minh bán chạy nhất hiện nay</p>
+      
+      <div class="row g-4">
+        <!-- Product 1 -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="product-card card h-100">
+            <div class="product-image-container">
+              <div id="product1Carousel" class="carousel slide h-100" data-bs-ride="carousel">
+                <div class="carousel-inner h-100">
+                  <div class="carousel-item active h-100">
+                    <img src="https://i.imgur.com/Jz1wYZR.jpg" class="d-block w-100 product-img" alt="Khóa vân tay Similock SL-8000">
+                  </div>
+                  <div class="carousel-item h-100">
+                    <img src="https://i.imgur.com/Km4JwFw.jpg" class="d-block w-100 product-img" alt="Khóa vân tay Similock SL-8000">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#product1Carousel">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#product1Carousel">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <span class="product-badge bg-danger text-white">Bán chạy</span>
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title text-primary" onclick="showProductDetail(1)">Khóa vân tay Similock SL-8000</h5>
+              <p class="text-danger fw-bold mb-3">5.990.000đ</p>
+              <ul class="product-features text-start ps-0">
+                <li>Mở khóa bằng vân tay, thẻ từ, mật mã</li>
+                <li>Kết nối WiFi, điều khiển từ xa</li>
+                <li>Cảnh báo chống phá khóa</li>
+                <li>Pin sử dụng 12 tháng</li>
+              </ul>
+            </div>
+            <div class="card-footer bg-transparent border-0">
+              <button class="btn btn-primary w-100 rounded-pill" onclick="showProductDetail(1)">Xem chi tiết</button>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Product 2 -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="product-card card h-100">
+            <div class="product-image-container">
+              <div id="product2Carousel" class="carousel slide h-100" data-bs-ride="carousel">
+                <div class="carousel-inner h-100">
+                  <div class="carousel-item active h-100">
+                    <img src="https://i.imgur.com/Km4JwFw.jpg" class="d-block w-100 product-img" alt="Khóa thông minh Similock SL-7000">
+                  </div>
+                  <div class="carousel-item h-100">
+                    <img src="https://i.imgur.com/p5XQYjH.jpg" class="d-block w-100 product-img" alt="Khóa thông minh Similock SL-7000">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#product2Carousel">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#product2Carousel">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <span class="product-badge bg-success text-white">Tiết kiệm</span>
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title text-primary" onclick="showProductDetail(2)">Khóa thông minh Similock SL-7000</h5>
+              <p class="text-danger fw-bold mb-3">4.590.000đ</p>
+              <ul class="product-features text-start ps-0">
+                <li>Mở khóa vân tay, mật mã, chìa cơ</li>
+                <li>Chống nước IP54</li>
+                <li>Báo động khi có đột nhập</li>
+                <li>Thiết kế chống bụi</li>
+              </ul>
+            </div>
+            <div class="card-footer bg-transparent border-0">
+              <button class="btn btn-primary w-100 rounded-pill" onclick="showProductDetail(2)">Xem chi tiết</button>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Product 3 -->
+        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+          <div class="product-card card h-100">
+            <div class="product-image-container">
+              <div id="product3Carousel" class="carousel slide h-100" data-bs-ride="carousel">
+                <div class="carousel-inner h-100">
+                  <div class="carousel-item active h-100">
+                    <img src="https://i.imgur.com/p5XQYjH.jpg" class="d-block w-100 product-img" alt="Khóa cửa điện tử Similock SL-9000 Pro">
+                  </div>
+                  <div class="carousel-item h-100">
+                    <img src="https://i.imgur.com/Jz1wYZR.jpg" class="d-block w-100 product-img" alt="Khóa cửa điện tử Similock SL-9000 Pro">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#product3Carousel">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#product3Carousel">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <span class="product-badge bg-info text-white">Mới</span>
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title text-primary" onclick="showProductDetail(3)">Khóa cửa điện tử Similock SL-9000 Pro</h5>
+              <p class="text-danger fw-bold mb-3">7.990.000đ</p>
+              <ul class="product-features text-start ps-0">
+                <li>Mở khóa bằng khuôn mặt, vân tay</li>
+                <li>Kết nối WiFi, Bluetooth</li>
+                <li>Màn hình cảm ứng 4 inch</li>
+                <li>Tích hợp chuông hình</li>
+              </ul>
+            </div>
+            <div class="card-footer bg-transparent border-0">
+              <button class="btn btn-primary w-100 rounded-pill" onclick="showProductDetail(3)">Xem chi tiết</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="text-center mt-5" data-aos="fade-up">
+        <a href="#san-pham" class="btn btn-outline-primary btn-lg rounded-pill px-4">
+          <i class="bi bi-list-ul me-2"></i>Xem tất cả sản phẩm
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Đánh giá Section -->
+  <section id="danh-gia" class="section bg-white">
+    <div class="container">
+	 <div class="row justify-content-center">
+        <div class="col-12 text-center">
+      <h2 class="text-center section-title" data-aos="fade-up">Khách hàng nói gì về chúng tôi?</h2>
+      
+      <div class="row mt-4 g-4">
+        <!-- Testimonial 1 -->
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="testimonial-card card h-100">
+            <div class="card-body">
+              <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p class="card-text">"Tôi rất hài lòng với khóa vân tay Similock SL-8000. Lắp đặt nhanh chóng, nhân viên tư vấn nhiệt tình. Khóa hoạt động ổn định, mở cửa nhanh và chính xác."</p>
+            </div>
+            <div class="card-footer bg-transparent">
+              <div class="d-flex align-items-center">
+                <img src="https://randomuser.me/api/portraits/women/32.jpg" class="rounded-circle me-3" width="50" height="50" alt="Khách hàng">
+                <div>
+                  <h6 class="mb-0">Chị Ngọc Anh</h6>
+                  <small class="text-muted">Cư dân Vinhomes Ocean Park</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Testimonial 2 -->
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="testimonial-card card h-100">
+            <div class="card-body">
+              <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </div>
+              <p class="card-text">"Khóa thông minh giúp gia đình tôi an tâm hơn khi đi xa. Có thể kiểm tra và mở cửa từ xa cho người thân. Dịch vụ hậu mãi tốt, bảo hành nhanh chóng."</p>
+            </div>
+            <div class="card-footer bg-transparent">
+              <div class="d-flex align-items-center">
+                <img src="https://randomuser.me/api/portraits/men/75.jpg" class="rounded-circle me-3" width="50" height="50" alt="Khách hàng">
+                <div>
+                  <h6 class="mb-0">Anh Minh Đức</h6>
+                  <small class="text-muted">Chủ nhà tại Sơn Trà</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Testimonial 3 -->
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="testimonial-card card h-100">
+            <div class="card-body">
+              <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </div>
+              <p class="card-text">"Đã lắp 5 khóa cho căn hộ dịch vụ của mình. Khách thuê rất thích tính tiện lợi, không cần mang chìa khóa. Giá cả hợp lý hơn so với các hãng khác mà chất lượng tương đương."</p>
+            </div>
+            <div class="card-footer bg-transparent">
+              <div class="d-flex align-items-center">
+                <img src="https://randomuser.me/api/portraits/women/68.jpg" class="rounded-circle me-3" width="50" height="50" alt="Khách hàng">
+                <div>
+                  <h6 class="mb-0">Chị Thanh Hương</h6>
+                  <small class="text-muted">Chủ căn hộ cho thuê</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="section bg-light">
+    <div class="container">
+	 <div class="row justify-content-center">
+        <div class="col-12 text-center">
+      <h2 class="text-center section-title" data-aos="fade-up">Câu hỏi thường gặp</h2>
+      
+      <div class="row justify-content-center mt-4">
+        <div class="col-lg-8">
+          <div class="accordion" id="faqAccordion">
+            <!-- FAQ Item 1 -->
+            <div class="accordion-item mb-3 border-0 shadow-sm" data-aos="fade-up" data-aos-delay="100">
+              <h3 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                  Khóa điện tử có an toàn không?
+                </button>
+              </h3>
+              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  <p>Khóa điện tử Similock sử dụng công nghệ bảo mật tiên tiến:</p>
+                  <ul>
+                    <li>Cảm biến vân tay sinh trắc học chống sao chép</li>
+                    <li>Mã hóa dữ liệu 128-bit cho thẻ từ và kết nối WiFi</li>
+                    <li>Cảnh báo chống phá khóa, chống đột nhập</li>
+                    <li>Chìa cơ khẩn cấp đạt tiêu chuẩn quốc tế</li>
+                  </ul>
+                  <p class="mb-0">Độ an toàn cao hơn nhiều so với khóa cơ truyền thống.</p>
+                </div>
+              </div>
+            </div>
+            
+            <!-- FAQ Item 2 -->
+            <div class="accordion-item mb-3 border-0 shadow-sm" data-aos="fade-up" data-aos-delay="200">
+              <h3 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                  Lắp đặt khóa điện tử có làm hỏng cửa không?
+                </button>
+              </h3>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  <p>Quy trình lắp đặt chuyên nghiệp của chúng tôi đảm bảo:</p>
+                  <ul>
+                    <li>Khảo sát kỹ cấu trúc cửa trước khi thi công</li>
+                    <li>Sử dụng dụng cụ chuyên dụng, không làm xước, nứt cửa</li>
+                    <li>Khoan lỗ chính xác theo bản vẽ kỹ thuật</li>
+                    <li>Vệ sinh sạch sẽ sau khi hoàn thành</li>
+                  </ul>
+                  <p class="mb-0">99% khách hàng hài lòng với quá trình lắp đặt không gây hư hại cửa.</p>
+                </div>
+              </div>
+            </div>
+            
+            <!-- FAQ Item 3 -->
+            <div class="accordion-item mb-3 border-0 shadow-sm" data-aos="fade-up" data-aos-delay="300">
+              <h3 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                  Khi mất điện khóa có hoạt động không?
+                </button>
+              </h3>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  <p>Khóa điện tử Similock được thiết kế để hoạt động ngay cả khi mất điện:</p>
+                  <ul>
+                    <li>Sử dụng pin AA thông thường, thời lượng 12-18 tháng</li>
+                    <li>Cảnh báo pin yếu trước 1 tháng</li>
+                    <li>Có cổng sạc dự phòng bằng power bank bên ngoài</li>
+                    <li>Tích hợp chìa cơ khẩn cấp</li>
+                  </ul>
+                  <p class="mb-0">Bạn có thể yên tâm sử dụng trong mọi tình huống.</p>
+                </div>
+              </div>
+            </div>
+            
+            <!-- FAQ Item 4 -->
+            <div class="accordion-item mb-3 border-0 shadow-sm" data-aos="fade-up" data-aos-delay="400">
+              <h3 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
+                  Thời gian lắp đặt mất bao lâu?
+                </button>
+              </h3>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  <p>Thời gian lắp đặt phụ thuộc vào loại cửa:</p>
+                  <ul>
+                    <li>Cửa gỗ tiêu chuẩn: 30-45 phút</li>
+                    <li>Cửa kim loại, cửa kính cường lực: 45-60 phút</li>
+                    <li>Cửa đặc biệt (cửa 2 cánh, cửa có then cài): 60-90 phút</li>
+                  </ul>
+                  <p class="mb-0">Chúng tôi sẽ báo thời gian chính xác sau khi khảo sát thực tế.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Liên hệ Section -->
+  <section id="lien-he" class="section bg-white">
+    <div class="container">
+	 <div class="row justify-content-center">
+        <div class="col-12 text-center">
+      <h2 class="text-center section-title" data-aos="fade-up">Liên hệ tư vấn</h2>
+      
+      <div class="row mt-4 g-4">
+        <div class="col-lg-6" data-aos="fade-right">
+          <div class="contact-info p-4 h-100 rounded-3 shadow-sm bg-light">
+            <h4 class="mb-4 text-primary">Thông tin liên hệ</h4>
+            
+            <div class="d-flex align-items-start mb-4">
+              <div class="feature-icon bg-primary bg-opacity-10 rounded-circle me-3 flex-shrink-0">
+                <i class="bi bi-geo-alt text-primary fs-5"></i>
+              </div>
+              <div>
+                <h5 class="mb-1">Địa chỉ</h5>
+                <p class="mb-0">123 Nguyễn Văn Linh, Quận Hải Châu, Đà Nẵng</p>
+              </div>
+            </div>
+            
+            <div class="d-flex align-items-start mb-4">
+              <div class="feature-icon bg-primary bg-opacity-10 rounded-circle me-3 flex-shrink-0">
+                <i class="bi bi-telephone text-primary fs-5"></i>
+              </div>
+              <div>
+                <h5 class="mb-1">Điện thoại</h5>
+                <p class="mb-0">
+                  <a href="tel:0902950816" class="text-decoration-none">0902.950.816</a> (Zalo, SMS)
+                </p>
+              </div>
+            </div>
+            
+            <div class="d-flex align-items-start mb-4">
+              <div class="feature-icon bg-primary bg-opacity-10 rounded-circle me-3 flex-shrink-0">
+                <i class="bi bi-envelope text-primary fs-5"></i>
+              </div>
+              <div>
+                <h5 class="mb-1">Email</h5>
+                <p class="mb-0">
+                  <a href="mailto:info@khoadientudanang.shop" class="text-decoration-none">info@khoadientudanang.shop</a>
+                </p>
+              </div>
+            </div>
+            
+            <div class="d-flex align-items-start">
+              <div class="feature-icon bg-primary bg-opacity-10 rounded-circle me-3 flex-shrink-0">
+                <i class="bi bi-clock text-primary fs-5"></i>
+              </div>
+              <div>
+                <h5 class="mb-1">Giờ làm việc</h5>
+                <p class="mb-0">8:00 - 20:00 hàng ngày (kể cả thứ 7, CN)</p>
+              </div>
+            </div>
+            
+            <div class="mt-4 pt-3">
+              <h5 class="mb-3">Kết nối với chúng tôi</h5>
+              <div class="d-flex">
+                <a href="https://facebook.com/khoadientudanang" class="social-icon me-2" target="_blank" rel="noopener">
+                  <i class="bi bi-facebook"></i>
+                </a>
+                <a href="https://zalo.me/0902950816" class="social-icon me-2" target="_blank" rel="noopener">
+                  <i class="bi bi-chat-dots-fill"></i>
+                </a>
+                <a href="https://www.tiktok.com/@khoadientudanang" class="social-icon me-2" target="_blank" rel="noopener">
+                  <i class="bi bi-tiktok"></i>
+                </a>
+                <a href="https://www.youtube.com/c/khoadientudanang" class="social-icon" target="_blank" rel="noopener">
+                  <i class="bi bi-youtube"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-6" data-aos="fade-left">
+          <div class="contact-form p-4 rounded-3 shadow-sm bg-light">
+            <h4 class="mb-4 text-primary">Gửi yêu cầu tư vấn</h4>
+            <form id="contactForm" novalidate>
+              <div class="mb-3">
+                <label for="name" class="form-label">Họ và tên <span class="text-danger">*</span></label>
+                <input type="text" class="form-control" id="name" required>
+                <div class="invalid-feedback">Vui lòng nhập họ tên của bạn</div>
+              </div>
+              
+              <div class="mb-3">
+                <label for="phone" class="form-label">Số điện thoại <span class="text-danger">*</span></label>
+                <input type="tel" class="form-control" id="phone" required>
+                <div class="invalid-feedback">Vui lòng nhập số điện thoại</div>
+              </div>
+              
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+              
+              <div class="mb-3">
+                <label for="product" class="form-label">Sản phẩm quan tâm</label>
+                <select class="form-select" id="product">
+                  <option value="">-- Chọn sản phẩm --</option>
+                  <option value="SL-8000">Khóa vân tay Similock SL-8000</option>
+                  <option value="SL-7000">Khóa thông minh Similock SL-7000</option>
+                  <option value="SL-9000">Khóa cửa điện tử SL-9000 Pro</option>
+                  <option value="other">Sản phẩm khác</option>
+                </select>
+              </div>
+              
+              <div class="mb-3">
+                <label for="message" class="form-label">Nội dung yêu cầu</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Vui lòng mô tả cửa nhà bạn (chất liệu, kích thước lỗ khóa hiện tại...)"></textarea>
+              </div>
+              
+              <div class="d-grid">
+                <button type="submit" class="btn btn-primary rounded-pill py-2">
+                  <i class="bi bi-send-fill me-2"></i>Gửi yêu cầu
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Đặt hàng Section -->
+  <section id="dat-hang" class="bg-primary text-white">
+    <div class="container text-center py-5" data-aos="fade-up">
+      <h2 class="mb-4">Đặt hàng ngay hôm nay để nhận ưu đãi!</h2>
+      <p class="lead mb-4">Giảm ngay 10% khi đặt hàng online + Tặng 1 bộ pin dự phòng cao cấp</p>
+      <div class="d-flex justify-content-center flex-wrap gap-3">
+        <a href="tel:0902950816" class="btn btn-light btn-lg rounded-pill px-4">
+          <i class="bi bi-telephone-fill me-2 text-primary"></i>0902.950.816
+        </a>
+        <a href="#lien-he" class="btn btn-outline-light btn-lg rounded-pill px-4">
+          <i class="bi bi-chat-dots-fill me-2"></i>Nhận tư vấn
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <h4 class="mb-4">Khóa Điện Tử Đà Nẵng</h4>
+          <p>Chuyên phân phối và lắp đặt khóa cửa thông minh chính hãng Similock tại Đà Nẵng và khu vực miền Trung.</p>
+          <div class="d-flex mt-4">
+            <a href="#" class="social-icon me-2">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a href="#" class="social-icon me-2">
+              <i class="bi bi-youtube"></i>
+            </a>
+            <a href="#" class="social-icon me-2">
+              <i class="bi bi-tiktok"></i>
+            </a>
+            <a href="#" class="social-icon">
+              <i class="bi bi-zalo"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-2 col-md-4">
+          <h5 class="mb-4">Liên kết</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#gioi-thieu"><i class="bi bi-chevron-right me-2"></i>Giới thiệu</a></li>
+            <li class="mb-2"><a href="#san-pham"><i class="bi bi-chevron-right me-2"></i>Sản phẩm</a></li>
+            <li class="mb-2"><a href="#danh-gia"><i class="bi bi-chevron-right me-2"></i>Đánh giá</a></li>
+            <li class="mb-2"><a href="#faq"><i class="bi bi-chevron-right me-2"></i>FAQ</a></li>
+            <li><a href="#lien-he"><i class="bi bi-chevron-right me-2"></i>Liên hệ</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-lg-3 col-md-4">
+          <h5 class="mb-4">Sản phẩm</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#"><i class="bi bi-chevron-right me-2"></i>Khóa vân tay</a></li>
+            <li class="mb-2"><a href="#"><i class="bi bi-chevron-right me-2"></i>Khóa thẻ từ</a></li>
+            <li class="mb-2"><a href="#"><i class="bi bi-chevron-right me-2"></i>Khóa WiFi</a></li>
+            <li class="mb-2"><a href="#"><i class="bi bi-chevron-right me-2"></i>Khóa khuôn mặt</a></li>
+            <li><a href="#"><i class="bi bi-chevron-right me-2"></i>Phụ kiện khóa</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-lg-3 col-md-4">
+          <h5 class="mb-4">Hỗ trợ</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#"><i class="bi bi-chevron-right me-2"></i>Hướng dẫn sử dụng</a></li>
+            <li class="mb-2"><a href="#"><i class="bi bi-chevron-right me-2"></i>Chính sách bảo hành</a></li>
+            <li class="mb-2"><a href="#"><i class="bi bi-chevron-right me-2"></i>Thanh toán & vận chuyển</a></li>
+            <li class="mb-2"><a href="#"><i class="bi bi-chevron-right me-2"></i>Chính sách đổi trả</a></li>
+            <li><a href="#"><i class="bi bi-chevron-right me-2"></i>Bảo mật thông tin</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <hr class="my-4 opacity-25">
+      
+      <div class="row align-items-center">
+        <div class="col-md-6 text-center text-md-start">
+          <p class="mb-0">© 2023 Khóa Điện Tử Đà Nẵng. All rights reserved.</p>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <img src="https://img.icons8.com/plasticine/100/000000/visa.png" alt="Visa" width="40" class="me-2">
+          <img src="https://img.icons8.com/color/48/000000/mastercard.png" alt="Mastercard" width="40" class="me-2">
+          <img src="https://img.icons8.com/color/48/000000/jcb.png" alt="JCB" width="40" class="me-2">
+          <img src="https://img.icons8.com/color/48/000000/paypal.png" alt="Paypal" width="40">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <a href="#" class="back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+  <!-- Product Detail Modal -->
+  <div class="modal fade product-modal" id="productDetailModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Chi tiết sản phẩm</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-md-6">
+              <div id="productDetailCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner rounded-3">
+                  <!-- Images will be loaded dynamically -->
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#productDetailCarousel">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#productDetailCarousel">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <h3 id="detailProductTitle"></h3>
+              <div class="d-flex align-items-center mb-3">
+                <div class="rating me-3">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                </div>
+                <span class="text-muted">(12 đánh giá)</span>
+              </div>
+              
+              <div class="d-flex align-items-center mb-3">
+                <h4 class="text-danger mb-0 me-3" id="detailProductPrice"></h4>
+                <del class="text-muted" id="detailProductOldPrice"></del>
+                <span class="badge bg-danger ms-2" id="detailProductDiscount"></span>
+              </div>
+              
+              <p class="text-success mb-4"><i class="bi bi-check-circle-fill me-2"></i>Còn hàng</p>
+              
+              <h5 class="mb-3">Thông số kỹ thuật</h5>
+              <ul id="productDetailFeatures" class="mb-4">
+                <!-- Features will be loaded dynamically -->
+              </ul>
+              
+              <div class="d-grid gap-2">
+                <button class="btn btn-primary rounded-pill py-2">
+                  <i class="bi bi-cart-fill me-2"></i>Thêm vào giỏ hàng
+                </button>
+                <button class="btn btn-outline-primary rounded-pill py-2">
+                  <i class="bi bi-whatsapp me-2"></i>Mua qua WhatsApp
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  
+  <script>
+    // Khởi tạo AOS animation
+    document.addEventListener('DOMContentLoaded', function() {
+      AOS.init({
+        duration: 800,
+        easing: 'ease-in-out',
+        once: true
+      });
+      
+      // Back to top button
+      const backToTopButton = document.querySelector('.back-to-top');
+      window.addEventListener('scroll', () => {
+        backToTopButton.classList.toggle('active', window.scrollY > 300);
+      });
+      
+      // Form validation
+      const form = document.getElementById('contactForm');
+      if (form) {
+        form.addEventListener('submit', function(event) {
+          if (!form.checkValidity()) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+          form.classList.add('was-validated');
+        });
+      }
+      
+      // Smooth scrolling
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+          e.preventDefault();
+          const targetId = this.getAttribute('href');
+          if (targetId === '#') return;
+          
+          const targetElement = document.querySelector(targetId);
+          if (targetElement) {
+            window.scrollTo({
+              top: targetElement.offsetTop - 80,
+              behavior: 'smooth'
+            });
+          }
+        });
+      });
+    });
+    
+    // Product data
+    const products = {
+      1: {
+        title: "Khóa vân tay Similock SL-8000",
+        price: "5.990.000đ",
+        oldPrice: "6.500.000đ",
+        discount: "-10%",
+        images: [
+          "https://i.imgur.com/Jz1wYZR.jpg",
+          "https://i.imgur.com/Km4JwFw.jpg",
+          "https://i.imgur.com/p5XQYjH.jpg"
+        ],
+        features: [
+          "Chất liệu: Hợp kim chống gỉ cao cấp",
+          "Màu sắc: Đen bóng, Vàng đồng",
+          "Công nghệ mở: Vân tay, thẻ từ, mật mã, chìa cơ",
+          "Kết nối: WiFi 2.4GHz, Bluetooth",
+          "Bảo mật: Cảm biến chống đột nhập, báo động 110dB",
+          "Pin: 4AA (hoạt động 12-18 tháng)",
+          "Chống nước: IP54",
+          "Bảo hành: 24 tháng"
+        ]
+      },
+      2: {
+        title: "Khóa thông minh Similock SL-7000",
+        price: "4.590.000đ",
+        oldPrice: "5.200.000đ",
+        discount: "-12%",
+        images: [
+          "https://i.imgur.com/Km4JwFw.jpg",
+          "https://i.imgur.com/p5XQYjH.jpg",
+          "https://i.imgur.com/Jz1wYZR.jpg"
+        ],
+        features: [
+          "Chất liệu: Hợp kim nhôm cao cấp",
+          "Màu sắc: Đen mờ, Bạc",
+          "Công nghệ mở: Vân tay, mật mã, chìa cơ",
+          "Kết nối: Bluetooth",
+          "Bảo mật: Cảm biến chống đột nhập",
+          "Pin: 4AA (hoạt động 10-12 tháng)",
+          "Chống nước: IP54",
+          "Bảo hành: 24 tháng"
+        ]
+      },
+      3: {
+        title: "Khóa cửa điện tử Similock SL-9000 Pro",
+        price: "7.990.000đ",
+        oldPrice: "8.800.000đ",
+        discount: "-9%",
+        images: [
+          "https://i.imgur.com/p5XQYjH.jpg",
+          "https://i.imgur.com/Jz1wYZR.jpg",
+          "https://i.imgur.com/Km4JwFw.jpg"
+        ],
+        features: [
+          "Chất liệu: Hợp kim cao cấp + kính cường lực",
+          "Màu sắc: Đen bóng, Vàng gold",
+          "Công nghệ mở: Khuôn mặt, vân tay, thẻ từ, mật mã",
+          "Kết nối: WiFi 2.4GHz/5GHz, Bluetooth 5.0",
+          "Bảo mật: Cảm biến 3D chống mặt nạ, báo động 120dB",
+          "Pin: Lithium 5000mAh (sạc từ tính)",
+          "Chống nước: IP55",
+          "Bảo hành: 36 tháng"
+        ]
+      }
+    };
+    
+    // Hiển thị chi tiết sản phẩm
+    function showProductDetail(productId) {
+      const product = products[productId];
+      if (!product) return;
+      
+      // Cập nhật thông tin sản phẩm
+      document.getElementById('detailProductTitle').textContent = product.title;
+      document.getElementById('detailProductPrice').textContent = product.price;
+      document.getElementById('detailProductOldPrice').textContent = product.oldPrice;
+      document.getElementById('detailProductDiscount').textContent = product.discount;
+      
+      // Cập nhật hình ảnh
+      const carouselInner = document.querySelector('#productDetailCarousel .carousel-inner');
+      carouselInner.innerHTML = '';
+      
+      product.images.forEach((img, index) => {
+        const item = document.createElement('div');
+        item.className = `carousel-item ${index === 0 ? 'active' : ''}`;
+        item.innerHTML = `<img src="${img}" class="d-block w-100" alt="${product.title}">`;
+        carouselInner.appendChild(item);
+      });
+      
+      // Cập nhật tính năng
+      const featuresList = document.getElementById('productDetailFeatures');
+      featuresList.innerHTML = '';
+      
+      product.features.forEach(feature => {
+        const li = document.createElement('li');
+        li.innerHTML = feature;
+        featuresList.appendChild(li);
+      });
+      
+      // Hiển thị modal
+      const modal = new bootstrap.Modal(document.getElementById('productDetailModal'));
+      modal.show();
+    }
+  </script>
+</body>
+</html>
