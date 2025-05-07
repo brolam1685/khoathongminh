@@ -598,10 +598,10 @@
                   <div id="product2Carousel" class="carousel slide h-100" data-bs-ride="carousel">
                     <div class="carousel-inner h-100">
                       <div class="carousel-item active h-100">
-                        <img src="https://i.imgur.com/Km4JwFw.jpg" class="d-block w-100 product-img" alt="Khóa FACEID - WIFI SF80" loading="lazy" itemprop="image">
+                        <img src="https://i.imgur.com/WShoTKi.jpeg" class="d-block w-100 product-img" alt="Khóa FACEID - WIFI SF80" loading="lazy" itemprop="image">
                       </div>
                       <div class="carousel-item h-100">
-                        <img src="https://i.imgur.com/p5XQYjH.jpg" class="d-block w-100 product-img" alt="Khóa FACEID - WIFI SF80 góc nhìn khác" loading="lazy" itemprop="image">
+                        <img src="https://i.imgur.com/WShoTKi.jpeg" class="d-block w-100 product-img" alt="Khóa FACEID - WIFI SF80 góc nhìn khác" loading="lazy" itemprop="image">
                       </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#product2Carousel" aria-label="Previous image">
@@ -613,7 +613,52 @@
                       <span class="visually-hidden">Next</span>
                     </button>
                   </div>
-                  <span class="product-badge bg-success text-white">Tiết kiệm</span>
+                <head>
+    <style>
+        .product-badge {
+            font-size: 20px;
+            font-weight: bold;
+            padding: 8px 16px;
+            border-radius: 4px;
+            display: inline-block;
+        }
+        
+        .super-blinking {
+            animation: super-blink 0.8s infinite alternate;
+            text-shadow: 0 0 3px rgba(255, 255, 255, 0.8);
+            box-shadow: 0 0 10px rgba(255, 0, 0, 0.6);
+        }
+        
+        @keyframes super-blink {
+            0% {
+                background: linear-gradient(45deg, #ff0000, #ff6b6b);
+                transform: scale(1);
+                opacity: 1;
+            }
+            25% {
+                background: linear-gradient(45deg, #ff2400, #ff8c66);
+                transform: scale(1.02);
+            }
+            50% {
+                background: linear-gradient(45deg, #ff0000, #ff3333);
+                transform: scale(1.05);
+                opacity: 0.9;
+            }
+            75% {
+                background: linear-gradient(45deg, #ff4000, #ff9966);
+                transform: scale(1.02);
+            }
+            100% {
+                background: linear-gradient(45deg, #ff0000, #ff6666);
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <span class="product-badge text-white super-blinking">SIÊU TIẾT KIỆM </span>
+</body>
                 </div>
                 <div class="card-body text-center">
                   <h3 class="card-title text-primary" onclick="showProductDetail(2)" itemprop="name">   Khóa FACEID WIFI SF80</h3>
