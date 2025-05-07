@@ -525,7 +525,52 @@
                       <span class="visually-hidden">Next</span>
                     </button>
                   </div>
-                <span class="product-badge bg-danger text-white" style="font-size: 40px;">SIÊU KHUYẾN MÃI MUA 1 TẶNG 1</span>
+               <head>
+    <style>
+        .product-badge {
+            font-size: 20px;
+            font-weight: bold;
+            padding: 8px 16px;
+            border-radius: 4px;
+            display: inline-block;
+        }
+        
+        .super-blinking {
+            animation: super-blink 0.8s infinite alternate;
+            text-shadow: 0 0 3px rgba(255, 255, 255, 0.8);
+            box-shadow: 0 0 10px rgba(255, 0, 0, 0.6);
+        }
+        
+        @keyframes super-blink {
+            0% {
+                background: linear-gradient(45deg, #ff0000, #ff6b6b);
+                transform: scale(1);
+                opacity: 1;
+            }
+            25% {
+                background: linear-gradient(45deg, #ff2400, #ff8c66);
+                transform: scale(1.02);
+            }
+            50% {
+                background: linear-gradient(45deg, #ff0000, #ff3333);
+                transform: scale(1.05);
+                opacity: 0.9;
+            }
+            75% {
+                background: linear-gradient(45deg, #ff4000, #ff9966);
+                transform: scale(1.02);
+            }
+            100% {
+                background: linear-gradient(45deg, #ff0000, #ff6666);
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <span class="product-badge text-white super-blinking">SIÊU KHUYẾN MÃI MUA 1 TẶNG 1</span>
+</body>
                 </div>
                 <div class="card-body text-center">
                   <h3 class="card-title text-primary" onclick="showProductDetail(1)" itemprop="name">Khóa cửa điện tử SIMILOCK K888 ĐƯỢC MẠ VÀNG 24K</h3>
